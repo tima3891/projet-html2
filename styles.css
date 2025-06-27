@@ -1,34 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+.body{
 font-family: "Roboto", sans-serif;
- font-size:  10;
+ font-size: 10;
+ background-color: aqua;
+}
+.navlink {
+padding-right: 0px;
+margin-right: 0%;
+display: flex;
+justify-content:space-between;
+padding-left: 75%;
 }
 
-.navbar {
-padding: 5px 15px;
-height: 40;
-margin: 15px;
+ .title{
+color:blueviolet;
+ }
 
+.nom{
+    display:flex;
+    justify-content:flex-start;
+   
+}
+#hero{
+    background:url(./thiébou\ dieun.jpg) no-repeat 75% 75% ;
+    background-size: cover;
+   height: 300px; 
+   margin: top 0%;
+   padding-top: 0%
+ }
+ .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+ }
+img {
+    width: 50%;
+    height: 45%;
+   }
+.item1,.item2,.item3{
+width: 200px;
+height: 125px;
+border: 3px;
+flex-direction: row;
+text-align: center;
+justify-content: space-between;
+ }
 
-}
-.navbar,.title{
- color:red
-}
-.nav-link{
-    font: size 40px;
-}
-h1,h2,h3{
-    text-transform: uppercase;
-    text-align: center;
-    color:blue;
-    outline: auto;
-}
 p{
     color: rgba(255, 72, 0, 0.99);
 } 
-    
-    
-    
+ #boxa{
+    display: flex;
+    justify-content: flex-start;
+ }
+ #boxb{
+    text-align: right;
+   margin-right: 0px;
+   border-right: 0px;
+   padding-left:  100px;
+   margin-left: 75px;
+   justify-content:flex-end;
+   width: 50%;
+ } 
+ .form{
+    margin-left: 100px;
+    padding-left: 50px;
+    border-color: black;
+    width: 50%;
+    height: 3%;
+ } 
+input{
+    display: flex;
+    flex-direction: column;
+}
+#texta{
+   display: flex;
+   margin-right:  25px;
+   flex-direction:column;
+}
+#infos{
+   color: blue;
+   margin-left: 15px;
+   text-decoration: underline;
+    width: 150px;
+    height: 40px;
+}
+#icons{
+   width: 150px;
+   display: flex;
+   justify-content: space-between;
+   text-align: right;
 
-
+}
